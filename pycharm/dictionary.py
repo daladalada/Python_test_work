@@ -23,4 +23,6 @@ dic2.pop("x")
 dic2["x"] = 200
 dic2.pop("x")
 print(dic2)
+dic2.pop('阿迪达斯')
+print(dic2)
 

@@ -1,7 +1,7 @@
 def closure_1(para_1 = 5):
     para_3 = 5
     def closure_2(para_2 = 9):
-        nonlocal para_3, para_1
+        nonlocal para_3, para_1 #nonlocal表示引用外部一层变量
         para_3 -= para_1
         print('para_3 in para_1 is:' + str(para_1) +  ' value is:', para_3)
         print('para_1:' + str(para_1) +  ' * para_2:' + str(para_2) +  ' * para_3:' + str(para_3) + ' = ', para_1 * para_2 * para_3)

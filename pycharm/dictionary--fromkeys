@@ -1,0 +1,7 @@
+dic1 = {}
+#dic1 = dic1.fromkeys((1,2,3), 'a,b,c')
+#print(dic1)
+dic1 = dic1.fromkeys(('1','2',3))
+dic1['1'] = 'haha'
+dic1['1'] = 'buyao'
+print(dic1)
